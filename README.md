@@ -2,13 +2,13 @@
 
 ## Available Language Versions:
 
-### [📖 English Documentation](files/README_EN.md)
+### [📖 English Documentation](files/README_en.md)
 Complete technical documentation in English
 
-### [📖 Русская документация](files/README_RU.md)
+### [📖 Русская документация](files/README_ru.md)
 Полная документация на русском языке
 
-### [📖 O'zbek hujjatlar](files/README_UZ.md)
+### [📖 O'zbek hujjatlar](files/README_uz.md)
 O'zbek tilida to'liq hujjatlar
 
 ---
