@@ -54,6 +54,7 @@
 > ⚠️ **Infrastructure notice**  
 > Direct interaction with server hardware is restricted to system administrators.
 
+
 ### Purpose
 The AI Server is a **centralized compute platform** used for:
 - AI model training
@@ -61,11 +62,13 @@ The AI Server is a **centralized compute platform** used for:
 - Data processing
 - Backend services for robotics and vision systems
 
+
 ### User Interaction
 Users interact with the server **remotely only**:
 - SSH access
 - Remote desktop or web interfaces
 - Job execution and workload submission
+
 
 ### Managed Components
 The following components are **administrator-managed** and require **no user action**:
@@ -88,7 +91,9 @@ The following components are **administrator-managed** and require **no user act
 
 <div align="center">
 
+
 ## 🖥️ Workstations (x10) — ThinkStation P3 Tower Gen 2
+
 
 [![Workstation](https://img.shields.io/badge/Workstations-ThinkStation%20P3%20Tower%20Gen%202-black?logo=lenovo)](https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/lenovo-thinkstation-p3-tower-gen-2-intel-workstation/30hs000nus)
 [![Specs PDF](https://img.shields.io/badge/Specs-PDF-blue?logo=adobereader)](https://psref.lenovo.com/syspool/Sys/PDF/ThinkStation/ThinkStation_P3_Tower_Gen_2/ThinkStation_P3_Tower_Gen_2_Spec.pdf)
@@ -99,6 +104,7 @@ The following components are **administrator-managed** and require **no user act
 <tr>
 <td width="65%" valign="top">
 
+
 ### Purpose
 These workstations are **user-facing development machines** intended for:
 - Software development  
@@ -108,7 +114,9 @@ These workstations are **user-facing development machines** intended for:
 
 Each workstation is an independent system equipped with a dedicated GPU.
 
+
 ---
+
 
 ### Who can use them
 - Students  
@@ -125,6 +133,7 @@ Each workstation is an independent system equipped with a dedicated GPU.
 <tr>
 <td width="65%" valign="top">
 
+
 ### How to start using a workstation
 1. Power on the workstation  
 2. Log in to **Windows 11 Pro**  
@@ -132,6 +141,7 @@ Each workstation is an independent system equipped with a dedicated GPU.
 4. Run local workloads or connect to shared compute resources  
 
 ---
+
 
 ### What users can do
 - Write, run, and debug code  
@@ -151,6 +161,7 @@ Each workstation is an independent system equipped with a dedicated GPU.
 <tr>
 <td width="65%" valign="top">
 
+
 ### Check GPU availability
 ```powershell
 nvidia-smi
@@ -158,6 +169,7 @@ nvidia-smi
 import torch
 print(torch.cuda.is_available())
 ```
+
 
 ### Notes
 - Report any hardware or software issues immediately
@@ -170,7 +182,9 @@ print(torch.cuda.is_available())
 
 <div align="center">
 
+
 ## 👁️ Stereo Camera — Intel RealSense D455
+
 
 ![Category](https://img.shields.io/badge/Category-Robotics-blue)
 [![GitHub](https://img.shields.io/badge/GitHub-IntelRealSense%2Flibrealsense-black?logo=github)](https://github.com/IntelRealSense/librealsense)
@@ -182,6 +196,7 @@ print(torch.cuda.is_available())
 <table>
 <tr>
 <td width="65%" valign="top">
+
 
 ### Purpose
 The Intel RealSense D455 is a **depth-sensing stereo camera** used for:
@@ -199,6 +214,7 @@ The Intel RealSense D455 is a **depth-sensing stereo camera** used for:
 <table>
 <tr>
 <td width="65%" valign="top">
+
 
 ### How to use
 1. Connect the camera via USB
@@ -242,7 +258,9 @@ finally:
 
 <div align="center">
 
+
 ## 🤖 Humanoid Robot — Unitree G1
+
 
 [![Humanoid Robot](https://img.shields.io/badge/Humanoid%20Robot-Unitree%20G1-blue?logo=robotframework)](https://www.unitree.com/g1/)
 [![Official GitHub](https://img.shields.io/badge/GitHub-Unitree%20Robotics-black?logo=github)](https://github.com/unitreerobotics)
@@ -256,6 +274,7 @@ finally:
 <tr>
 <td width="65%" valign="top">
 
+
 ### Purpose
 The **Unitree G1** is a **humanoid research robot** used for:
 - Mobility and locomotion research
@@ -263,7 +282,9 @@ The **Unitree G1** is a **humanoid research robot** used for:
 - Human–robot interaction
 - Advanced robotics experiments
 
+
 ---
+
 
 ### Safety notice ⚠️
 - Operate only in designated areas
@@ -271,7 +292,9 @@ The **Unitree G1** is a **humanoid research robot** used for:
 - Never obstruct joints or actuators
 - Emergency stop must be accessible at all times
 
+
 ---
+
 
 ### How users interact with the robot
 Users control the robot through:
@@ -279,7 +302,9 @@ Users control the robot through:
 - SDK and APIs
 - Predefined motion scripts
 
+
 ---
+
 
 ### How to start using the robot
 1. Place the robot on a stable surface
@@ -292,6 +317,7 @@ Users control the robot through:
 <td width="35%" align="right">
 <img src="../images/robot.png" alt="Unitree G1 Humanoid Robot" width="100%"/>
 </td> </tr> </table>
+
 
 ### Basic setup example
 
@@ -323,7 +349,9 @@ setup(name='unitree_sdk2py',
 
 <div align="center">
 
+
 ## 🐕 Quadruped Robot — Unitree Go2
+
 
 [![Quadruped Robot](https://img.shields.io/badge/Quadruped%20Robot-Unitree%20Go2-blue?logo=robotframework)](https://www.unitree-robot.com/products/unitree-go2.html) &nbsp;
 [![Official GitHub](https://img.shields.io/badge/GitHub-Unitree%20Robotics-black?logo=github)](https://github.com/unitreerobotics) &nbsp;
@@ -336,6 +364,7 @@ setup(name='unitree_sdk2py',
 <tr>
 <td width="65%" valign="top">
 
+
 ### Purpose
 The **Unitree Go2** is a **quadruped robotic platform** designed for:
 - Robotics research and education
@@ -343,7 +372,9 @@ The **Unitree Go2** is a **quadruped robotic platform** designed for:
 - AI perception and locomotion testing
 - Human–robot interaction
 
+
 ---
+
 
 ### Safety notice ⚠️
 - Operate on flat, obstacle-free surfaces
@@ -351,7 +382,9 @@ The **Unitree Go2** is a **quadruped robotic platform** designed for:
 - Use emergency stop when required
 - Do not operate near stairs or edges
 
+
 ---
+
 
 ### How users interact with the robot
 Users control the robot via:
@@ -359,7 +392,9 @@ Users control the robot via:
 - SDK / API interface
 - Predefined motion modes
 
+
 ---
+
 
 ### How to start using the robot
 1. Place the robot on a stable surface
@@ -397,7 +432,9 @@ uint32 crc
 
 <div align="center">
 
+
 ## 🐕 Quadruped Robot — Unitree Go2
+
 
 [![Quadruped Robot](https://img.shields.io/badge/Quadruped%20Robot-Unitree%20Go2-blue?logo=robotframework)](https://www.unitree.com/en/go2)
 [![Official GitHub](https://img.shields.io/badge/GitHub-Unitree%20Robotics-black?logo=github)](https://github.com/unitreerobotics)
@@ -410,6 +447,7 @@ uint32 crc
 <tr>
 <td width="65%" valign="top">
 
+
 ### Purpose
 The **robotic manipulator** is intended for:
 - Research and development
@@ -418,7 +456,9 @@ The **robotic manipulator** is intended for:
 - Integration with computer vision and AI systems
 - Automation of repetitive operations
 
+
 ---
+
 
 ### Key Functions
 - Precise spatial positioning
@@ -426,7 +466,9 @@ The **robotic manipulator** is intended for:
 - Programmable motion trajectories
 - Manual and automatic operation modes
 
+
 ---
+
 
 ### Safety Precautions ⚠️
 - Do not place hands inside the working area during operation
@@ -434,7 +476,9 @@ The **robotic manipulator** is intended for:
 - Securely mount the manipulator to the work surface
 - Verify payload limits before operation
 
+
 ---
+
 
 ### User Interaction
 The manipulator can be controlled via:
@@ -442,7 +486,9 @@ The manipulator can be controlled via:
 - Manual control (teach / jog mode)
 - Predefined motion scripts
 
+
 ---
+
 
 ### Getting Started
 1. Secure the manipulator on a stable surface
@@ -455,6 +501,7 @@ The manipulator can be controlled via:
 <td width="35%" align="right">
 <img src="../images/robotic_manipulator.png" alt="Unitree Go2 Quadruped Robot" width="100%"/> 
 </td> </tr> </table> 
+
 
 ### Basic avoiding obstacles example
 ```python 
@@ -554,6 +601,7 @@ if __name__ == "__main__":
 
 <div align="center">
 
+
 ## 🤖 Industrial Robot — FANUC LR Mate 200iC/5L (R-30iA Controller)
 
 [![Industrial Robot](https://img.shields.io/badge/Robot-FANUC%20LR%20Mate%20200iC%2F5L-red?logo=fanuc)](https://www.fanucamerica.com/products/robots/series/lr-mate)
@@ -567,11 +615,14 @@ if __name__ == "__main__":
 <tr>
 <td width="65%" valign="top">
 
+
 ### Model
 - **Robot:** FANUC LR Mate 200iC/5L  
 - **Controller:** FANUC R-30iA
 
+
 ---
+
 
 ### Purpose
 The **FANUC LR Mate 200iC/5L** is a compact industrial robot designed for:
@@ -581,7 +632,9 @@ The **FANUC LR Mate 200iC/5L** is a compact industrial robot designed for:
 - Assembly and material handling
 - Vision-guided robotic tasks
 
+
 ---
+
 
 ### Key Capabilities
 - 6-axis articulated robot arm
@@ -590,7 +643,9 @@ The **FANUC LR Mate 200iC/5L** is a compact industrial robot designed for:
 - Compatible with vision systems and external sensors
 - Supports offline and online programming
 
+
 ---
+
 
 ### User Interaction
 The robot is operated using:
@@ -599,7 +654,9 @@ The robot is operated using:
 - Robot programs written in **TP** or **KAREL**
 - Optional integration with PLCs and vision systems
 
+
 ---
+
 
 ### Basic Usage Workflow
 1. Power on the R-30iA controller
@@ -613,6 +670,7 @@ The robot is operated using:
 <td width="35%" align="right">
 <img src="../images/fanuc_img.png" alt="Unitree Go2 Quadruped Robot" width="100%"/> 
 </td> </tr> </table> 
+
 
 ### Example — Simple Pick & Place Logic (Conceptual)
 ```python
@@ -721,6 +779,7 @@ if __name__ == "__main__":
 
 <div align="center">
 
+
 ## 🦾 Robotic Manipulator Kit (Controller‑Based Mechanical Arm)
 [![Official GitHub](https://img.shields.io/badge/GitHub‑open_manipulator-black?logo=github)](https://github.com/ROBOTIS-GIT/open_manipulator)  
 
@@ -731,11 +790,14 @@ if __name__ == "__main__":
 <tr>
 <td width="65%" valign="top">
 
+
 ### Type
 - **Category:** Educational / Research Robotic Manipulator
 - **Configuration:** Modular mechanical arm with controller
 
+
 ---
+
 
 ### Purpose
 This **robotic manipulator kit** is designed for:
@@ -744,7 +806,9 @@ This **robotic manipulator kit** is designed for:
 - Prototyping automation solutions
 - Testing grasping and manipulation algorithms
 
+
 ---
+
 
 ### Key Capabilities
 - Multi-joint articulated mechanical arm
@@ -753,7 +817,9 @@ This **robotic manipulator kit** is designed for:
 - End-effector support (gripper, suction cup, tools)
 - Expandable with sensors (limit switches, cameras, force sensors)
 
+
 ---
+
 
 ### User Interaction
 Users interact with the manipulator via:
@@ -762,7 +828,9 @@ Users interact with the manipulator via:
 - Programming using Python, C/C++, or Arduino-style code
 - Manual and programmatic joint control
 
+
 ---
+
 
 ### Basic Usage Workflow
 1. Connect the manipulator to the controller
@@ -776,6 +844,7 @@ Users interact with the manipulator via:
 <td width="35%" align="right">
 <img src="../images/img_1.png" alt="Unitree Go2 Quadruped Robot" width="100%"/> 
 </td> </tr> </table> 
+
 
 ### Example — Basic Joint Control (Conceptual)
 
@@ -791,6 +860,7 @@ CLOSE gripper
 ---
 
 <div align="center">
+
 
 ## 🏁 End of Documentation
 
